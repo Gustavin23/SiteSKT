@@ -1,202 +1,256 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-body h1{
-	font-family: Helvetica;
-	text-align: center;
-	color: white;
-	font-size: 15pt;
-	width: 100%;
-	height: 100%;
-	background-color: black;
+/* inicio */
+body h1 {
+  font-family: Helvetica;
+  text-align: center;
+  color: white;
+  font-size: 15pt;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 h2 {
-	font-family: helvetica;
-	font-size: 20pt;
-	margin: 20px;
-	text-align: center;
-    border-bottom: 1px solid black;
-  } 
-p{
-	width: 80%;
-  	margin-left: auto;
-  	margin-right: auto;
-  	font-family: Helvetica;
-  	font-size: 15pt;
-  	line-height: 20pt;
-  	text-align: center;
+  font-family: helvetica;
+  font-size: 20pt;
+  margin: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica;
+  font-size: 15pt;
+  line-height: 20pt;
+  text-align: center;
 }
 .fundo2 {
-	color: white;
-	background-color: black;
+  color: white;
+  background-color: black;
 }
 .fundo a {
-	text-decoration: none;
-	font-size: 15pt;
-	color: black;
-	margin: 5px;
-	text-align: center;
-  }
+  text-decoration: none;
+  font-size: 15pt;
+  color: black;
+  margin: 5px;
+  text-align: center;
+}
+#sobre p {
+  width: 70%;
+  font-family: "Lucida Sans Unicode";
+  font-size: 12pt;
+  line-height: 18pt;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+#imgSkate {
+  text-align: center;
+}
+#imgSkate img {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 100px;
+  padding-top: 30px;
+}
+#imgSkate img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  transition: ease 2s;
+}
+iframe {
+  width: 20%;
+  height: 200px;
+  margin: 20px;
+}
 /* produto shape */
-  #linha {
-	padding: 20px;
-	margin: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 15px #1c1c1c;
-	justify-content: center;
-  }
-  #linha div {
-	width: 30%;
-	margin: 10px;
-	border: 1px solid silver;
-  }
-  #linha div img {
-	width: 100%;
-	height: 300px;
-  }
-  #linha div h4 {
-	font-family: "Helvetica";
-	font-size: 15pt;
-	margin: 0.01px;
-  }
-  #linha div p {
-	font-family: "Helvetica";
-	font-size: 16pt;
-	color: #1c1c1c;
-	margin: 5px;
-	text-align: left;
-  }
-  /* produto lixa */
-  #linhaL {
-	padding: 20px;
-	margin: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 15px #1c1c1c;
-	justify-content: center;
-  }
-  #linhaL div {
-	width: 30%;
-	margin: 10px;
-	border: 1px solid silver;
-  }
-  #linhaL div img {
-	width: 100%;
-	height: 400px;
-  }
-  #linhaL div h4 {
-	font-family: "Helvetica";
-	font-size: 15pt;
-	margin: 5px;
-  }
-  #linhaL div p {
-	font-family: "Helvetica";
-	font-size: 16pt;
-	color: #1c1c1c;
-	margin: 5px;
-	text-align: left;
-  }
- 
-  /* produto truck */
-  #linhaT {
-	padding: 20px;
-	margin: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 15px #1c1c1c;
-	justify-content: center;
-  }
-  #linhaT div {
-	width: 30%;
-	margin: 10px;
-	border: 1px solid silver;
-  }
-  #linhaT div img {
-	width: 100%;
-	height: 450px;
-  }
-  #linhaT div h4 {
-	font-family: "Helvetica";
-	font-size: 15pt;
-	margin: 5px;
-  }
-  #linhaT div p {
-	font-family: "Helvetica";
-	font-size: 16pt;
-	color: #1c1c1c;
-	margin: 5px;
-	text-align: left;
-  }
- 
-  /* produto roda */
-  #linhaR {
-	padding: 20px;
-	margin: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 15px #1c1c1c;
-	justify-content: center;
-  }
-  #linhaR div {
-	width: 30%;
-	margin: 10px;
-	border: 1px solid silver;
-  }
-  #linhaR div img {
-	width: 100%;
-	height: 450px;
-  }
-  #linhaR div h4 {
-	font-family: "Helvetica";
-	font-size: 15pt;
-	margin: 5px;
-  }
-  #linhaR div p {
-	font-family: "Helvetica";
-	font-size: 16pt;
-	color: #1c1c1c;
-	margin: 5px;
-	text-align: left;
-  }
-  
-  /* produto Rolamento */
-  #linhaM {
-	padding: 20px;
-	margin: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	box-shadow: 2px 2px 15px #1c1c1c;
-	justify-content: center;
-  }
-  #linhaM div {
-	width: 30%;
-	margin: 10px;
-	border: 1px solid silver;
-  }
-  #linhaM div img {
-	width: 100%;
-	height: 450px;
-  }
-  #linhaM div h4 {
-	font-family: "Helvetica";
-	font-size: 15pt;
-	margin: 5px;
-  }
-  #linhaM div p {
-	font-family: "Helvetica";
-	font-size: 16pt;
-	color: #1c1c1c;
-	margin: 5px;
-	text-align: left;
-  }
- 
-  
+#linha {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 15px #1c1c1c;
+  justify-content: center;
+}
+#linha div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linha div img {
+  width: 100%;
+  height: 300px;
+}
+#linha div h4 {
+  font-family: "Helvetica";
+  font-size: 15pt;
+  margin: 5px;
+}
+#linha div p {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: #1c1c1c;
+  margin: 5px;
+  text-align: left;
+}
+/* produto lixa */
+#linhaL {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 15px #1c1c1c;
+  justify-content: center;
+}
+#linhaL div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linhaL div img {
+  width: 100%;
+  height: 400px;
+}
+#linhaL div h4 {
+  font-family: "Helvetica";
+  font-size: 15pt;
+  margin: 5px;
+}
+#linhaL div p {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: #1c1c1c;
+  margin: 5px;
+  text-align: left;
+}
+
+/* produto truck */
+#linhaT {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 15px #1c1c1c;
+  justify-content: center;
+}
+#linhaT div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linhaT div img {
+  width: 100%;
+  height: 450px;
+}
+#linhaT div h4 {
+  font-family: "Helvetica";
+  font-size: 15pt;
+  margin: 5px;
+}
+#linhaT div p {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: #1c1c1c;
+  margin: 5px;
+  text-align: left;
+}
+
+/* produto roda */
+#linhaR {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 15px #1c1c1c;
+  justify-content: center;
+}
+#linhaR div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linhaR div img {
+  width: 100%;
+  height: 450px;
+}
+#linhaR div h4 {
+  font-family: "Helvetica";
+  font-size: 15pt;
+  margin: 5px;
+}
+#linhaR div p {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: #1c1c1c;
+  margin: 5px;
+  text-align: left;
+}
+
+/* produto Rolamento */
+#linhaM {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 15px #1c1c1c;
+  justify-content: center;
+}
+#linhaM div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linhaM div img {
+  width: 100%;
+  height: 450px;
+}
+#linhaM div h4 {
+  font-family: "Helvetica";
+  font-size: 15pt;
+  margin: 5px;
+}
+#linhaM div p {
+  font-family: "Helvetica";
+  font-size: 16pt;
+  color: #1c1c1c;
+  margin: 5px;
+  text-align: left;
+}
+
+/* Monte seu skate */
+
+#Montar {
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#Montar div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#Montar div img {
+  width: 100%;
+  height: 500px;
+}
+select {
+  width: 300px;
+  padding: 10px;
+  cursor: pointer;
+  color: #1c1c1c;
+  margin-left: 80%;
+}
