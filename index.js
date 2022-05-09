@@ -22,8 +22,11 @@ const express = require('express');
 // Importação do módulo do mongoose
 const mongoose = require('mongoose');
 
+const cors = require('cors');
+
 // Criação do app referente ao express
 const app = express();
+app.use(cors())
 
 // Preparar o servidor para receber json
 app.use(express.json());
@@ -38,15 +41,9 @@ mongoose.connect(urldb, {useNewUrlParser: true,useUnifiedTopology: true});
 const tabela = mongoose.Schema({
     nome:{type:String,require},
     email:{type:String,require},
-    telefone:{type:String},
-    cidade:{type:String},
-    shape:{type:String},
-    lixa:{type:String},
-    truck:{type:String},
-    roda:{type:String},
-    rolamento:{type:String}
+    telefone:{type:String}
 });
-const Cliente = mongoose.model("tbcliente",tabela);
+const Cliente = mongoose.model("cliente",tabela);
 
 // Definição de uma rota padrão
 const default_route = "/api/cliente";

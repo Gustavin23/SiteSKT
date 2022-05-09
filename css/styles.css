@@ -254,3 +254,46 @@ select {
   color: #1c1c1c;
   margin-left: 80%;
 }
+.btn{
+  border-bottom: 5px solid;
+}
+/* Pagina contato */
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: silver;
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+}
+main form input[type="tel"] {
+  width: 30%;
+}
+main form select {
+  width: 20%;
+  padding: 9px;
+  cursor: pointer;
+  color: #1c1c1c;
+}
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: silver;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1c1c1c;
+  margin-left: 80%;
+}
